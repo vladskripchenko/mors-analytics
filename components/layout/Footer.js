@@ -22,7 +22,7 @@ export default function Footer() {
             values={{
               name: (
                 <Link href="https://mors.agency">
-                  <b>Mors</b>
+                  Mors
                 </Link>
               ),
             }}
