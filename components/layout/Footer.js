@@ -21,15 +21,12 @@ export default function Footer() {
             defaultMessage="Powered by {name}"
             values={{
               name: (
-                <Link href="https://umami.is">
-                  <b>umami</b>
+                <Link href="https://mors.agency">
+                  <b>Mors Agency</b>
                 </Link>
               ),
             }}
           />
-        </div>
-        <div className={classNames(styles.version, 'col-12 col-md-4')}>
-          <Link href={`https://github.com/mikecao/umami/releases`}>{`v${current}`}</Link>
         </div>
       </div>
     </footer>
