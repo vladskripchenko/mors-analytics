@@ -22,12 +22,13 @@ export default function Footer() {
             values={{
               name: (
                 <Link href="https://mors.agency">
-                  <b>Mors Agency</b>
+                  <b>Mors</b>
                 </Link>
               ),
             }}
           />
         </div>
+        <div className="col-12 col-md-4" />
       </div>
     </footer>
   );
